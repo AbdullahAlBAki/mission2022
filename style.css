@@ -1,0 +1,99 @@
+body{ margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 40%;
+    float: left;
+   margin-left: 5%;
+   padding-left: 5%;
+}
+.title-1{
+    margin-top: 80px;
+    font-size: 50px;
+    border-left: 4px solid  rgb(240, 100, 100);
+}
+.orange{
+   
+    color: orange;
+}
+p{
+    font-size: 20px;
+    color: rgb(51, 47, 47);
+}
+.button{
+    border: none;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(240, 100, 100) ;
+    padding: 10px 23px;
+    border-radius: 5px;
+}
+#scroll-detail{
+    font-size: 15px;
+    color: rgb(51, 47, 47);
+}
+.half-width img{
+    width: 85%;
+}
+h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    padding: 13px;
+    border-radius:15px;
+    width: 320px;
+    height: 330px;
+    margin: 10px;
+
+}
+
+.card-image{
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: 42%;
+    background-position: left;
+}
+#card-color1{
+    background-color: rgb(217, 234, 243);
+}
+.card-1{
+    
+   background-image:url(images/illustrators/illustrator-1.png);
+    
+}
+#card-color2{
+    background-color:rgb(241, 225, 227);
+}
+.card-2{
+    background-image: url(images/illustrators/illustrator-2.png);
+}
+#card-color3{
+    background-color:rgb(243, 243, 217);
+}
+.card-3{
+    background-image: url(images/illustrators/illustrator-3.png);
+}
+
+.container-main{
+    width: 70%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.small{
+    width: 30%;
+}
+.big{
+    width: 60%;
+}
+.small img{
+    width: 100%;
+}
